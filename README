@@ -1,0 +1,33 @@
+Christopher Draper Master Project FSU 2020 Summer Semester
+FURTHER TESTU01 INTEGRATION INTO THE SPRNG LIBRARY
+
+This project further integrates the TestU01 library into the SPRNG library.
+Most of the SPRNG random number tests had equivelent tests in the TestU01 library.
+This version of the SPRNG library adds those versions of the tests to the SPRNG library.
+The new tests have been placed in the subdirectories ./sprng5/TESTS/testu01 and ./sprng5/TESTS/testu01mpi
+With testu01mpi supdirectory containing the versions of the tests that support the parallel versions of the tests using MPI.
+
+The TestU01 download can be found at:
+http://simul.iro.umontreal.ca/testu01/tu01.html
+Along with instructions on how to install.
+Instructions on how to install SPRNG can be found at:
+http://sprng.org/
+Using the same instructions that SPRNG Version 5.0 uses.
+This project was originally developed and tested on Ubuntu 16.04 LTS.
+
+
+sprng5Final.tar
+Contains the upgraded version of SPRNG.
+
+Data.xlsx
+Contains the data produced during speed testing along side the regression and t-test results.
+
+Test_TestU01.sh 
+Script used to produce the speed tests results for the t-test. Should be run from the sprng5/TESTS/testu01
+
+Test_SPRNG.sh
+Script used to produce the speed tests results for the t-test. Should be run from the sprng5/TESTS
+
+RegressionTest.sh
+Script used to produce the speed test results used for the regression analysis. Should be run from sprng5/TESTS/testu01
+
